@@ -1,0 +1,326 @@
+/*
+Theme Name: GeneratePress Child
+Theme URI: https://generatepress.com
+Template: generatepress
+Author: Tom Usborne
+Author URI: https://tomusborne.com
+Description: GeneratePress is a lightweight WordPress theme built with a focus on speed and usability. Performance is important to us, which is why a fresh GeneratePress install adds less than 15kb (gzipped) to your page size. We take full advantage of the new block editor (Gutenberg), which gives you more control over creating your content. If you use page builders, GeneratePress is the right theme for you. It is completely compatible with all major page builders, including Beaver Builder and Elementor. Thanks to our emphasis on WordPress coding standards, we can boast full compatibility with all well-coded plugins, including WooCommerce. GeneratePress is fully responsive, uses valid HTML/CSS and is translated into over 25 languages by our amazing community of users. A few of our many features include microdata integration, 9 widget areas, 5 navigation locations, 5 sidebar layouts, dropdown menus (click or hover) and navigation color presets. Learn more and check out our powerful premium version at https://generatepress.com
+Tags: two-columns,three-columns,one-column,right-sidebar,left-sidebar,footer-widgets,blog,e-commerce,flexible-header,full-width-template,buddypress,custom-header,custom-background,custom-menu,custom-colors,sticky-post,threaded-comments,translation-ready,rtl-language-support,featured-images,theme-options
+Version: 2.2.2.1556448535
+Updated: 2019-04-28 10:48:55
+
+*/
+
+/*------------HOME PAGE-------------*/
+
+/*Block One*/
+.home-blockOne{
+    background-color: #de3b69;
+    color: #ffff;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+.home-blockOne-heading{
+    font-family: 'Srisakdi', cursive;
+    text-align: center;
+}
+.home-blockOne-bodyText{
+    font-family: 'Raleway', sans-serif;
+}
+.home-blockOne-button{
+    background-color: #ffff !important;
+    color: #e91e63 !important;
+}
+
+
+/*Block Two*/
+.home-blockTwo{
+
+}
+.home-blockTwo-containers{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Raleway', sans-serif;
+    color: #133072 !important;
+}
+.home-blockTwo-heading{
+    color: #133072;
+    font-family: 'Srisakdi', cursive;
+}
+.home-blockTwo-subHeading{
+    font-family: 'Raleway', sans-serif;
+}
+.home-blockTwo-cards{
+    background-color: #b1d3e3;
+    color: #133072;
+    max-width: 450px;
+}
+.home-blockTwo-cardTitles{
+    color: #ffff;
+    font-weight: bolder !important;
+}
+.home-blockTwo-cardBody{
+
+}
+.home-blockTwo-cardDes{
+    color: #ffff !important;
+}
+.home-blockTwo-cardButton{
+    border: #ffff solid 3px !important;
+    color: #ffff !important;
+}
+
+
+
+/*------------ABOUT PAGE-------------*/
+/*Block One*/
+.about-blockOne{
+    font-family: 'Raleway', sans-serif;
+}
+.about-blockOne-heading{
+    font-family: 'Srisakdi', cursive;
+}
+.about-blockOne-bodyText{
+    font-family: 'Raleway', sans-serif;
+}
+.about-blockOne-hr{
+    background-color: #e91e63;
+    max-width: 300px;
+    height: 2px;
+}
+
+/*Block Two*/
+.about-blockTwo{
+    font-family: 'Raleway', sans-serif;
+}
+.about-blockTwo-heading{
+    font-family: 'Srisakdi', cursive;
+    color: #ffb4cd;
+}
+.about-blockTwo-bodyText{
+    font-family: 'Raleway', sans-serif;
+}
+.about-blockTwo-bodyLink{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.about-blockTwo-button{
+    background-color: #e91e63 !important;
+}
+
+/*Block Three*/
+.about-blockThree{
+    background-color: #ffb4cd;
+    font-family: 'Raleway', sans-serif;
+}
+.about-blockThree-leftContainer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.about-blockThree-rightContainer{
+    background-image: url('http://techfusionproject5.com/wp-content/uploads/2019/05/20190501_095210-e1557110121804.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.about-blockThree-heading{
+    color: #ffffff;
+}
+.about-blockThree-hr{
+
+}
+.about-blockThree-staffPicture{
+
+}
+.about-blockThree-staffTitle{
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+}
+.about-blockThree-staffDesc{
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+}
+
+/*------------Contact PAGE-------------*/
+.contact-heading{
+    font-family: 'Srisakdi', cursive;
+}
+.contact-hr{
+    background-color: #e91e63;
+    max-width: 300px;
+    height: 2px;
+}
+.contact-container-left{
+    font-family: 'Raleway', sans-serif;
+}
+.contact-container-right{
+    font-family: 'Raleway', sans-serif;
+}
+.contact-option-heading{
+    color: #FFB4CD;
+}
+.contact-option-icon{
+
+}
+.contact-option-hr{
+
+}
+.contact-option-subHeading{
+
+}
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+/*------------ENROLLMENT PAGE-------------*/
+/*Block One*/
+.entoll-blockOne{
+
+}
+.entoll-blockOne-heading{
+    font-family: 'Srisakdi', cursive;
+}
+.entoll-blockOne-bodyText{
+    font-family: 'Raleway', sans-serif;
+}
+.entoll-blockOne-hr{
+    background-color: #e91e63;
+    max-width: 300px;
+    height: 2px;
+}
+
+/*Block Two*/
+.entoll-blockTwo{
+
+}
+.entoll-blockTwo-heading{
+    font-family: 'Srisakdi', cursive;
+}
+.entoll-blockTwo-buttons{
+    background-color: #e91e63 !important;
+}
+
+/*Block Three*/
+.entoll-blockThree{
+    background-color: #ffb4cd;
+    font-family: 'Raleway', sans-serif;
+}
+.entoll-blockThree-container-right{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.entoll-blockThree-container-left{
+    background-image: url('http://techfusionproject5.com/wp-content/uploads/2019/05/fill_in_form-e1557110055961.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.entoll-blockThree-heading{
+    color: #ffffff;
+    font-family: 'Srisakdi', cursive;
+}
+.entoll-blockThree-hr{
+
+}
+.entoll-blockThree-button{
+    background-color: #e91e63 !important;
+    color: #ffffff !important;
+    border-width: 0px !important;
+    border-color: transparent !important;
+}
+/*------------PROGRAMS POST PAGES-------------*/
+
+/*Sidebar*/
+.programs-sidebar-container{
+    background-color: #ffff;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+.programs-sidebar-title{
+    font-family: 'Srisakdi', cursive;
+    font-size: 35px;
+}
+.programs-sidebar-headings{
+
+}
+.programs-sidebar-icons{
+
+}
+
+/*Main Content*/
+.programs-main-container{
+    padding-top: 50px;
+    font-family: 'Raleway', sans-serif;
+
+}
+.programs-main-heading{
+    font-family: 'Srisakdi', cursive;
+}
+.programs-main-hr{
+
+}
+.programs-main-body{
+
+}
+.programs-main-button{
+
+}
+.programs-other-hr{
+
+}
+.programs-other-heading{
+
+}
+.programs-other-titles{
+
+}
+.programs-other-hrLines{
+
+}
+.programs-other-des{
+
+}
+.programs-other-buttons{
+
+}
+
+.row.display-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row.display-flex > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+
+.featured-fix {
+    height: 100%;
+}
+
+.footer{
+    background-color: #e91e63 !important;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    color: #ffff;
+}
+
+.main-navigation li{
+    background: #e91e63 !important;
+}
